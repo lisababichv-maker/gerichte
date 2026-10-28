@@ -1,1 +1,148 @@
-/*# sourceMappingURL=main.css.map */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  border: none;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.chef {
+  position: relative;
+  padding: 110px 0 120px;
+  background-image: url("../images/chefsbackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.chef .container {
+  max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+.chef .left {
+  position: relative;
+  width: 50%;
+  max-width: 500px;
+}
+.chef .left::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 75%;
+  height: 60%;
+  border-top: 20px solid #DCCA87;
+  border-right: 20px solid #DCCA87;
+}
+.chef .left::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  width: 75%;
+  height: 60%;
+  border-bottom: 20px solid #DCCA87;
+  border-left: 20px solid #DCCA87;
+}
+.chef__photo {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 550px;
+}
+.chef .right {
+  width: 50%;
+  max-width: 570px;
+  text-align: left;
+}
+.chef__top-text {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+.chef__icon {
+  display: block;
+  width: 40px;
+  height: 12px;
+  fill: #DCCA87;
+  margin-bottom: 16px;
+}
+.chef__title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #DCCA87;
+  margin-bottom: 45px;
+}
+.chef__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.9;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  margin-bottom: 50px;
+}
+.chef__name {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #DCCA87;
+  margin-bottom: 5px;
+}
+.chef__position {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #AAAAAA;
+  margin-bottom: 40px;
+}
+.chef .right > .chef__icon:last-child {
+  width: 210px;
+  height: 80px;
+  fill: #FFFFFF;
+}
+.chef__logo {
+  position: absolute;
+  right: 30px;
+  bottom: -40px;
+  width: 150px;
+  height: 150px;
+  fill: #DCCA87;
+}/*# sourceMappingURL=main.css.map */

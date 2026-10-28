@@ -1,16 +1,8 @@
-@import "base/reset";
-@import "base/common";
-@import "base/container";
-@import "./utils/placeholders";
-@import "./utils/mixins";
-@import "utils/variables";
+@import "./base/reset";
+@import "./base/common";
+@import "./base/container";
+@import "./untils/mixins";
+@import "./untils/variables";
 
-@import "section/header";
-@import "section/about";
-@import "section/rules";
-@import "section/work";
-@import "section/team";
-@import "section/customers";
-@import "section/hero";
-@import "section/modal";
-@import "section/footer";
+@import "./sections/chef";
+@import "./sections/costumers";
