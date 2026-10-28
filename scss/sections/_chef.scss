@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 80px;
+    gap: 96px;
   }
 
   .left {
@@ -72,7 +72,7 @@
     width: 40px;
     height: 12px;
     fill: #DCCA87;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
   }
 
   &__title {
@@ -82,7 +82,7 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #DCCA87;
-    margin-bottom: 45px;
+    margin-bottom: 64px;
   }
 
   &__text {
@@ -92,7 +92,7 @@
     line-height: 1.9;
     letter-spacing: 0.04em;
     color: #AAAAAA;
-    margin-bottom: 50px;
+    margin-bottom: 64px;
   }
 
   &__name {
@@ -100,14 +100,14 @@
     font-size: 30px;
     font-weight: 400;
     color: #DCCA87;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
 
   &__position {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: #AAAAAA;
-    margin-bottom: 40px;
+    margin-bottom: 64px;
   }
 
   .right > .chef__icon:last-child {
